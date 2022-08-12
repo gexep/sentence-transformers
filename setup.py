@@ -19,16 +19,16 @@ setup(
     packages=find_packages(),
     python_requires=">=3.6.0",
     install_requires=[
-        'transformers>=4.6.0,<5.0.0',
+        'transformers',
         'tqdm',
-        'torch>=1.6.0',
+        'torch',
         'torchvision',
         'numpy',
         'scikit-learn',
         'scipy',
         'nltk',
         'sentencepiece',
-        'huggingface-hub>=0.4.0'
+        'huggingface-hub'
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
